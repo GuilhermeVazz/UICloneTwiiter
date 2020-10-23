@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, input, body {
+  font-family: -apple-system, Ubunt, Arial, sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+.menuSide {
+  width: 375px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-attachment: fixed;
+  height: 100vh;
+  border-right: 1px solid #d8dcdd;
+  float: left;
+}
+
+.menuLateral {
+  margin-top: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menuLateral button {
+  text-align: left;
+  background: transparent;
+  border: none;
+  width: 199.25px;
+  height: 46.25px;
+  padding: 9px 10px;
+  font-size: 22px;
+}
+
+.menuLateral button:hover {
+  background: #e7f4f8;
+  color: #04c8f4;
+  border-radius: 9999px;
+  width: 100%;
+}
+
+.menuLateral button.tweetar {
+  text-align: center;
+  background: #04c8f4;
+  color: #fff;
+  border-radius: 9999px;
+  width: 240px;
+  height: 60px;
+  margin-top: 5%;
+}
+
+.menuLateral button.tweetar:hover {
+  background: #1cb2fe;
+}
+
+.buttonUser {
+  width: 255px;
+  height: 59px;
+  margin-top: 45%;
+  padding: 9px 10px;
+}
+
+.buttonUser:hover {
+  background: #e7f4f8;
+  border-radius: 9999px;
+  width: 255px;
+}
+
+.buttonUser span {
+  margin-top: 1px;
+  color: grey;
+}
+
+.content-center {
+  width: 825px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-attachment: fixed;
+  height: 100vh;
+  border-right: 1px solid #d8dcdd;
+  float: left;
+  overflow-y: scroll;
+}
+
+.tituloPagina {
+  color: #111;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  padding: 2% 2%;
+  border-bottom: 1px solid #d8dcdd;
+}
+
+.postar input {
+  height: 65px;
+  width: 80%;
+  margin-left: 20%;
+  padding: 4px 4px;
+  font-size: 20px;
+  border: none;
+}
+
+.postar button {
+  width: 86px;
+  height: 47px;
+  margin-left: 85%;
+  margin-top: 1.5%;
+  border: none;
+  text-align: center;
+  background: #04c8f4;
+  color: #fff;
+  border-radius: 9999px;
+}
+
+.content-center hr {
+  margin-top: 1%;
+  height: 15px;
+  border: none;
+  background: #d8dcdd;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,61 @@
+.content-center{
+    width: 825px;
+
+    display: flex;
+    flex-direction: column;
+    
+    background-attachment: fixed;
+    height: 100vh;
+    border-right: 1px solid $gray;
+
+    float: left;
+    overflow-y: scroll;
+}
+
+
+.tituloPagina{
+    color: $black;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    padding: 2% 2%;
+    border-bottom: 1px solid $gray;
+
+}
+
+.postar input{
+    height: 65px;
+    width: 80%;
+    margin-left: 20%;
+    
+    padding: 4px 4px;
+    font-size: 20px;
+    
+    border: none;
+    // border-top: 0px;
+    // border-right: 0px;
+    // border-left: 0px;
+    // border-bottom: 1px solid $gray;
+    
+}
+
+.postar button{
+    width: 86px;
+    height: 47px;
+    margin-left: 85%;
+    margin-top: 1.5%;
+
+    border: none;
+
+    text-align: center;
+    background: $blue;
+    color: $white;
+    border-radius: 9999px ;
+}
+
+.content-center hr{
+    margin-top: 1%;
+    height: 15px;
+    border: none;
+    background: $gray;
+}
